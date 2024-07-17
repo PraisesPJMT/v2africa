@@ -2,6 +2,7 @@
 :root {
 	--primary: #00368c;
 	--secondary: #ffaf2e;
+	--secondary-light: #ffaf2e44;
 	--light: #edf1fc;
 	--light-trans: #0008;
 	--dark: #011b45;
@@ -125,6 +126,14 @@
 /* Home */
 .highlight-trans {
 	background: var(--light-trans);
+}
+
+.border-sec {
+	border-color: var(--secondary) !important;
+}
+
+.hover-secondary:hover {
+	background: var(--secondary-light) !important;
 }
 
 @media (max-width: 991.98px) {

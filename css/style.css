@@ -320,6 +320,46 @@
 	background-size: cover;
 }
 
+/*** About ***/
+
+#mv .head {
+	min-height: 400px;
+}
+
+#mv .wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	margin: auto;
+	padding: 20px;
+}
+
+/* #mv .wrapper > div {
+	display: flex;
+	align-items: flex-start;
+} */
+
+#mission-vision {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 20px;
+	margin: auto;
+}
+
+#mission-vision > div {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	max-width: 300px;
+	margin: auto;
+}
+
+#mission-vision .header {
+	text-align: center;
+}
+
 /*** Service ***/
 .service-item-top img {
 	transition: 0.5s;

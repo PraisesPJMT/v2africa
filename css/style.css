@@ -2,7 +2,9 @@
 :root {
 	--primary: #00368c;
 	--secondary: #ffaf2e;
+	--secondary-light: #ffaf2e44;
 	--light: #edf1fc;
+	--light-trans: #0008;
 	--dark: #011b45;
 }
 
@@ -121,6 +123,53 @@
 	color: var(--secondary);
 }
 
+.dropdown-item {
+	text-align: left;
+}
+
+/* Home */
+.highlight-trans {
+	background: var(--light-trans);
+}
+
+.border-sec {
+	border-color: var(--secondary) !important;
+}
+
+.hover-secondary:hover {
+	background: var(--secondary-light) !important;
+}
+
+/*========================
+	Start Clients CSS
+==========================*/
+.clients {
+	/* background-image:url('img/client-bg.jpg'); */
+	/* background-size:cover; */
+	/* background-position:center; */
+	padding: 100px 0px;
+	position: relative;
+}
+
+.clients .single-clients {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.clients .single-clients img {
+	height: 60px;
+	cursor: pointer;
+	text-align: center;
+	float: none;
+	padding: 0 35px;
+}
+
+.clients .clients-slider {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
 @media (max-width: 991.98px) {
 	.nav-bar {
 		padding: 0;
@@ -135,6 +184,10 @@
 		margin-top: 1rem;
 		padding-top: 1rem;
 		border-top: 1px solid #eeeeee;
+	}
+
+	.dropdown-item {
+		text-align: center;
 	}
 }
 
@@ -207,6 +260,12 @@
 		font-size: 30px;
 		font-weight: 600;
 	}
+
+	.clients .clients-slider {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
 }
 
 .header-carousel .owl-nav {
@@ -253,7 +312,7 @@
 /*** Facts ***/
 .fact {
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-		url(../img/bg.jpg) center center no-repeat;
+		url(../img/facts.jpg) center center no-repeat;
 	background-size: cover;
 }
 
@@ -472,6 +531,11 @@
 .team-item .team-text .bg-primary .btn:hover {
 	color: #ffffff;
 	background: var(--secondary);
+}
+
+.img-fluid {
+	width: 100%;
+	object-fit: cover;
 }
 
 /*** Testimonial ***/

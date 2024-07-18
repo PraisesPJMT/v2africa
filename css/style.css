@@ -335,11 +335,6 @@
 	padding: 20px;
 }
 
-/* #mv .wrapper > div {
-	display: flex;
-	align-items: flex-start;
-} */
-
 #mission-vision {
 	display: flex;
 	justify-content: space-around;

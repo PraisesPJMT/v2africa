@@ -60,6 +60,8 @@
 
 > Coming soon ...
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4f67b8cc-d687-43ae-aff7-ee6e33c42b89/deploy-status)](https://app.netlify.com/sites/v2africa/deploys)
+
 ![Preview]()
 
 ## 🚀 Live Link <a name="live-link"></a>

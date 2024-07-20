@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+/********** Custom CSS **********/
 :root {
 	--primary: #00368c;
 	--secondary: #ffaf2e;
@@ -74,6 +74,10 @@
 .top-bar {
 	height: 75px;
 	padding: 0 4rem;
+}
+
+.top-bar .address {
+	max-width: 300px;
 }
 
 .header-logo {

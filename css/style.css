@@ -392,11 +392,19 @@
 }
 
 /*** Management ***/
-.profile {
+.profile,
+.profile.even {
 	display: grid;
-	grid-template-columns: 1fr 2fr;
 	gap: 40px;
 	width: 100%;
+}
+
+.profile {
+	grid-template-columns: 1fr 2fr;
+}
+
+.profile.even {
+	grid-template-columns: 2fr 1fr;
 }
 
 .profile .picture-mobile {
@@ -434,7 +442,8 @@
 }
 
 @media (max-width: 991.98px) {
-	.profile {
+	.profile,
+	.profile.even {
 		display: flex;
 		flex-direction: column;
 		gap: 0;

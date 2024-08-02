@@ -80,7 +80,7 @@
 
 > The following applications are required to be installed for the project to run!
 
-- Install a modern browser e.g [Google Chrome](https://www.google.com/chrome/), [Edge](https://www.microsoft.com/en-us/edge?r=1), [Firefox](https://www.mozilla.org/en-US/exp/firefox/new/) etc.
+- Install a modern browser e.g. [Google Chrome](https://www.google.com/chrome/), [Edge](https://www.microsoft.com/en-us/edge?r=1), [Firefox](https://www.mozilla.org/en-US/exp/firefox/new/) etc.
 - Install [Git](https://git-scm.com/downloads)
 
 ### Setup
@@ -115,8 +115,8 @@ Open the `index.html` file in the root folder of the project
 
 > The following are features to be expected in the future
 
-- [ ] **Implement contact us server link**
-- [ ] **Implement news letter subscription**
+- [ ] **Implement a "contact us" server link**
+- [ ] **Implement "newsletter" subscription**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
